@@ -21,9 +21,6 @@ class MainActivity : AppCompatActivity() {
         var clearbutton =  findViewById<Button>(R.id.clearbutton)
 
         button1.setOnClickListener{
-            var addnum1 = num1.text.toString().toInt()
-            var addnum2 = num2.text.toString().toInt()
-            var result = addnum1 + addnum2
 
             Toast.makeText(this,"$result",Toast.LENGTH_SHORT).show()
         }
